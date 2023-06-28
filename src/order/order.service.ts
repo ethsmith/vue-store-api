@@ -3,7 +3,7 @@ import { AbstractService } from '../common/abstract.service';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Order } from './order.entity';
 import { Repository } from 'typeorm';
-import { PaginatedResult } from "../common/paginated-result";
+import { PaginatedResult } from '../common/paginated-result';
 
 @Injectable()
 export class OrderService extends AbstractService {

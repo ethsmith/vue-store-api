@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 
 import { RoleService } from './role.service';
-import { HasPermission } from "../permission/has-permission.decorator";
+import { HasPermission } from '../permission/has-permission.decorator';
 
 @Controller('roles')
 export class RoleController {

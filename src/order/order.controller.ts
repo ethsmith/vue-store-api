@@ -7,8 +7,8 @@ import {
   Query,
   Res,
   UseGuards,
-  UseInterceptors
-} from "@nestjs/common";
+  UseInterceptors,
+} from '@nestjs/common';
 
 import { OrderService } from './order.service';
 import { AuthGuard } from '../auth/auth.guard';
